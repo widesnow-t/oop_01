@@ -2,13 +2,13 @@
 
 class Car
 {
-    private $body;
+    private $name;
     private $number;
     private $color;
 
-    public function __construct($body, $number, $color)
+    public function __construct($name, $number, $color)
     {
-        $this->body = $body;
+        $this->body = $name;
         $this->number = $number;
         $this->color = $color;
     }
@@ -30,14 +30,14 @@ class Car
     
     public function information()
     {
-        return "車の車種:" . $this->body . "\n" .
+        return "車の車種:" . $this->name . "\n" .
                 "車体番号:" . $this->number. "\n" .
                 "カラー:" . $this->color . "\n";
     }
 
-    public function setName($body)
+    public function setName($name)
     {
-        return $this->body = $body;
+        return $this->name = $name;
     }
 
     public function setNumber($number)
