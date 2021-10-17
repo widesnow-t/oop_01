@@ -8,7 +8,7 @@ class Car
 
     public function __construct($name, $number, $color)
     {
-        $this->body = $name;
+        $this->name = $name;
         $this->number = $number;
         $this->color = $color;
     }
