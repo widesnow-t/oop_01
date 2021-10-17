@@ -15,7 +15,7 @@ class Car
 
     public function getName()
     {
-        return $this->body;
+        return $this->name;
     }
 
     public function getNumber()
